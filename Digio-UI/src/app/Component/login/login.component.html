@@ -1,0 +1,41 @@
+<div class="header">
+    <p style="font-size:18px;">Sign document using</p>
+    <p>saket@digio.in</p>
+    <div class="header-right">
+        <div>
+        <img width="300px" height="50px" src=".././assets/Image/generic-logo-hi.png" alt="">
+    </div>
+    </div>
+</div>
+<div class="login-content">
+<div>
+    <p> saket@digio.in uses Gmail? <br> login using google</p>
+    <button>google</button>
+</div>
+<p>------------------------------- OR ----------------------------</p>
+<div>
+
+    <div class="login_form">
+        <form [formGroup]="LoginGroup" (ngSubmit)="login()">
+            <div class="form-group">
+                <label for="userid" class="ch-form-label">Proceed with your email adddress</label>
+                <input type="email" class="form-control ch-form-textbox" id="userid" placeholder="saket@digio.in"
+                    formControlName="email" autocomplete="off">
+            </div>
+            <div>
+                By contining, I confirm to the Terms and Service and Privacy Policy of <a style="color:blue">Digio.in</a>
+            </div>
+            <div class="form-group mt-5">
+                <button type="submit" class="btn btn-primary w-100 font-bold">CONTINUE</button>
+            </div>
+        </form>
+    </div>
+</div>
+</div>
+<footer>
+<div class="footer">
+    <img width="60px" height="50px" src=".././assets/Image/digio_logo.jpg" alt="">
+    <p style="color: black">Powered by</p> <br>
+    <p style="color: blue;"><a>www.digio.in</a></p>
+</div>
+</footer>

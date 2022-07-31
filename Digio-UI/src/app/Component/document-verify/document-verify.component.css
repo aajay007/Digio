@@ -1,0 +1,28 @@
+.modal-popup{
+    height: 150px;
+    width: 600px;
+    position: fixed;
+    opacity: 1111110px;
+    background-color: green;
+    background: white;
+    opacity: 1222222;
+    margin-left: 150px;
+}
+
+.document-content{
+    margin-top: 0px;
+    position: fixed;
+    display: contents;
+    opacity: 0.5 !important;
+}
+
+.flex-class{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.classA{
+    margin-top: 10px;
+    margin-left: 15px;
+}
